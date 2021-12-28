@@ -1,0 +1,66 @@
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/* disbale the underline in links */
+a {
+    text-decoration: none;
+}
+
+/* message color that comes from functions */
+.message{
+    color: #4CAF50;
+}
+
+
+.menu {
+    background: #f1f1f1;
+    width: 10%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+
+.menu-link {
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header {
+    background: #f1f199;
+    text-align: center;
+ 	color: white;
+ 	padding: 10px;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.button-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 30 px;
+}
